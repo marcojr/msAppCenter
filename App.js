@@ -45,7 +45,7 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step {md5('1')}</Text>
               <Text style={styles.sectionDescription}>
-              bundle: {DeviceInfo.getBundleId()}
+              bundle id: {DeviceInfo.getBundleId()}
               </Text>
             </View>
             <View style={styles.sectionContainer}>
